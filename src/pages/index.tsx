@@ -1,4 +1,5 @@
 import * as React from "react"
+import * as uuid6  from "uuid-with-v6"
 
 // styles
 const pageStyles = {
@@ -142,6 +143,9 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <div>
+        <div>{uuid6.v6()}</div>
+      </div>
       <h1 style={headingStyles}>
         Congratulations
         <br />

@@ -16,14 +16,19 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "crypto-browserify": "^3.12.0",
+    "crypto-js": "^4.1.1",
     "gatsby": "^4.18.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "stream-browserify": "^3.0.0",
+    "uuid-with-v6": "^2.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.45",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
+    "@types/uuid-with-v6": "^1.1.0",
     "typescript": "^4.7.4"
   }
 }
